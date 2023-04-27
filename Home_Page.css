@@ -1,0 +1,229 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.MainContainer{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    /* border: 2px solid black; */
+    height: 600px;
+}
+.mainbox{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+    /* height: 100px; */
+}
+.navibox1{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 100px;
+    max-inline-size: max-content;
+    margin-left: 75px;
+}
+.navibox1 img{
+    /* border: 2px solid black; */
+    width: 75%;
+    height: 75%;
+
+}
+/* .navibox2{
+    border: 2px solid black;
+    height: 80px;
+    text-decoration: none;
+
+} */
+.navibox2 ul {
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    
+    /* text-decoration: none; */
+
+}
+.navibox2 ul a{
+
+    text-decoration: none;
+
+}
+.navibox2 ul li{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 36px;
+    width: 90px;
+    height: 30px;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+.navibox2 ul li:hover{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 36px;
+    width: 90px;
+    height: 30px;
+    font-weight: bolder;
+    color: darkorange;
+    background-color: blue;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.navibox3{
+
+    /* border: 2px solid black; */
+    background-image: url("/Assignment\ Contant/stethoscope.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 459px;
+    width: 64%;
+    margin: 105px;
+}
+.topAngleimage{
+    /* border: 2px solid black; */
+    background-image: url("/Assignment\ Contant/topAngle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    margin-top: -30px;
+    margin-right: 500px;
+}
+.bottomAngleimage{
+    /* border: 2px solid black; */
+    background-image: url("/Assignment\ Contant/bottomAngle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    margin-top: 330px;
+    margin-left: 330px;
+}
+.Heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Heading h1{
+    display: flex;
+    /* border: 2px solid black; */
+    align-items: center;
+    justify-content: center;
+    margin-top: -684px;
+    margin-right: 210px;
+
+}
+.Paragraph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Paragraph p{
+    display: flex;
+    /* border: 2px solid black; */
+    align-items: center;
+    justify-content: center;
+    margin-top: -500px;
+    margin-left: 30px;
+
+}
+.Button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Button Button{
+    display: flex;
+    border: 2px solid #45a049;
+    align-items: center;
+    justify-content: center;
+    margin-top: -400px;
+    margin-right: 360px;
+    background-color: #45a049;
+    border-radius: 12px;
+    color: white;
+    font-weight: bolder;
+    width: 150px;
+    height: 40px;
+}
+.Button Button:hover {
+    display: flex;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    margin-top: -400px;
+    margin-right: 360px;
+    border-radius: 12px;  
+    color: darkorange;
+    background-color: black;
+    font-weight: bolder;
+    width: 150px;
+    height: 40px;
+
+}
+
+.mouse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mouse img{
+    /* border: 2px solid black; */
+    height: 30px;
+    width: 30px;
+    margin-top: -100px;
+    margin-left: 265px;
+}
+.navibox4{
+    /* border: 2px solid black; */
+    background-image: url("/Assignment\ Contant/greenBox.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 402px;
+    width: 448px;
+    margin-left: 52px;
+    margin-top: 127px;
+}
+.yellowBox{
+    /* border: 2px solid black; */
+    background-image: url("/Assignment\ Contant/yellowBox.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 233px;
+    margin-left: 258px;
+    margin-top: -330px;
+    /* backface-visibility: hidden; */
+
+}
+
+.DoctorBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.DoctorBox img{
+    /* border: 2px solid black; */
+    height: 650px;
+    width: 450px;
+    margin-top: -245px;
+    margin-left: 40px;
+    backface-visibility: hidden;
+}
+
+
+
+
+
+
+
